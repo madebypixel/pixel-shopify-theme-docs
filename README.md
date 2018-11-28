@@ -53,10 +53,10 @@ In the description editor, the following convention can be used to customize the
 7. Any text following the ```sizing``` header will be parsed as the content of a collapsable sizing block
 
 ### Example: Editing the product description
-![example image](./src/assets/images/product_details_example.png)  
+![example image](product_details_example.png)  
 
 ### Example: Result
-![result image](./src/assets/images/product_detail_blocks_example.png)  
+![result image](product_detail_blocks_example.png)
 
 *NOTE: This is an anti-pattern, the product description is not where additional product information semantically belongs. This anti-pattern is being used because it makes the clients life easier. They shouldn't have to navigate through as many theme or section settings as there are products and update the information separately. With this anti-pattern, all product info lives on the product page in the admin dashboard for the client. Using this anti-pattern is acceptable because the client is small, the theme is custom, and it is not designed for general use.* 
 
